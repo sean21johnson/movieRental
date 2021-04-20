@@ -1,7 +1,5 @@
 const Like = (props) => {
 
-    console.log('props', props)
-
 	let classes = "fa fa-heart";
 	if (!props.liked) classes += "-o";
 	return (
